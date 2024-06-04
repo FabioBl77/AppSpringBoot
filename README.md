@@ -12,7 +12,7 @@ in lista vediamo tutti i prodotti in vendita</p><br>
 
 
 
-<br><p>una volta selezionato il prodotto e impostato le quantità si preme conferma</b><br>
+<br><p>una volta selezionato il prodotto e impostato le quantità si preme conferma</b><br><br>
 
 
 
