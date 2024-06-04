@@ -1,9 +1,18 @@
 <h1>Istrizioni della repository</h1>
 
-<p>Sito realizzato con Spring Boot impostato con gradle che utilizza queste dipendenze</p><br>
+<p>Sito realizzato con Spring Boot impostato con gradle che utilizza queste dipendenze</p>
 <p>(Site created with Spring Boot configured with Gradle using these dependencies)</p><br>
 
-![dipendenze](https://github.com/FabioBl77/AppSpringBoot/assets/167991278/ed877e2e-de5f-46e4-a5d6-67187de61c37)
+```shimplementation 'com.fasterxml.jackson.core:jackson-databind:2.17.1' 
+implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
+implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+implementation 'org.springframework.boot:spring-boot-starter-web'
+developmentOnly 'org.springframework.boot:spring-boot-devtools'
+runtimeOnly 'com.mysql:mysql-connector-j'
+testImplementation 'org.springframework.boot:spring-boot-starter-test'
+testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+implementation 'org.springframework.boot:spring-boot-starter-mail'
+```
 
 <br><p>Questo sito simula un ecommerce dove vengono venduti componenti per pc </p>
 <p>(This site simulates an e-commerce platform where PC components are sold)</p><br>
