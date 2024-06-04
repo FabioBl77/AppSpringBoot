@@ -1,7 +1,7 @@
 <h1>Istrizioni della repository</h1>
 
 <p>
-Questo sito è stato realizzato utilizzando Spring Boot, configurato con Gradle. L'applicazione impiega una serie di dipendenze per garantire funzionalità complete e ottimali, tra cui gestione dei dati, sicurezza, e interfacce utente. Grazie a queste dipendenze, il progetto è altamente scalabile, e facile da estendere con nuove funzionalità.
+Questo sito è stato realizzato utilizzando Spring Boot, configurato con Gradle e il database MySql. L'applicazione impiega una serie di dipendenze per garantire funzionalità complete e ottimali, tra cui gestione dei dati, sicurezza, e interfacce utente. Grazie a queste dipendenze, il progetto è altamente scalabile, e facile da estendere con nuove funzionalità.
 </p>
 <p>(This site was created using Spring Boot, configured with Gradle. The application employs a range of dependencies to ensure comprehensive and optimal functionality, including data management, security, and user interfaces. Thanks to these dependencies, the project is highly scalable, and easy to extend with new features.)</p>
 
