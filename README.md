@@ -1,6 +1,10 @@
 <h1>Istrizioni della repository</h1>
 
-<p>Sito realizzato con Spring Boot che simula un ecommerce dove vengono venduti componenti per pc :</p>
+<p>Sito realizzato con Spring Boot che utilizza queste dipendenze</p><br>
+
+![dipendenze](https://github.com/FabioBl77/AppSpringBoot/assets/167991278/ed877e2e-de5f-46e4-a5d6-67187de61c37)
+
+<br><p>Questo sito simula un ecommerce dove vengono venduti componenti per pc </p><br>
 
 ![homePage](https://github.com/FabioBl77/AppSpringBoot/assets/167991278/7d2d4969-6840-440e-a670-668989ae1ff6)
 
