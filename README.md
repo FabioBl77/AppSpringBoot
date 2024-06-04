@@ -1,21 +1,25 @@
 <h1>Istrizioni della repository</h1>
 
 <p>Sito realizzato con Spring Boot impostato con gradle che utilizza queste dipendenze</p><br>
+<p>(Site created with Spring Boot configured with Gradle using these dependencies)</p><br>
 
 ![dipendenze](https://github.com/FabioBl77/AppSpringBoot/assets/167991278/ed877e2e-de5f-46e4-a5d6-67187de61c37)
 
-<br><p>Questo sito simula un ecommerce dove vengono venduti componenti per pc </p><br>
+<br><p>Questo sito simula un ecommerce dove vengono venduti componenti per pc </p>
+<p>(This site simulates an e-commerce platform where PC components are sold)</p><br>
 
 ![homePage](https://github.com/FabioBl77/AppSpringBoot/assets/167991278/7d2d4969-6840-440e-a670-668989ae1ff6)
 
-<be><p>nella home page inseriamo il prodotto mentre 
-nel menu modifica riforniamo le quantità in magazziono, nel menù lista invece vediamo tutti i prodotti in vendita</p><br>
+<br<p>nella home page inseriamo il prodotto mentre 
+nel menu modifica riforniamo le quantità in magazziono, nel menù lista invece vediamo tutti i prodotti in vendita.</p>
+<p>(On the home page, we add the product, while in the "modify" menu, we restock the quantities in the warehouse. In the "list" menu, we can see all the products for sale.)</p><br>
 
 ![Screenshot 2024-06-04 145950](https://github.com/FabioBl77/AppSpringBoot/assets/167991278/f7e87312-0908-4e36-8cb6-fd3cacb076a6)
 
 
 
-<br><p>una volta selezionato il prodotto e impostato le quantità si preme conferma</b><br><br>
+<br><p>una volta selezionato il prodotto e impostato le quantità si preme conferma</b>
+<p>(Once the product is selected and the quantities are set, press confirm.)</p><br><br>
 
 
 
@@ -24,7 +28,8 @@ nel menu modifica riforniamo le quantità in magazziono, nel menù lista invece 
 
 
 <br><p>apparirà il riepilogo dell' ordine e verrà chiesto di inserire l'email
-a quel punto verrà recapitata un'email che riepilogherà l'orine</p><br>
+a quel punto verrà recapitata un'email che riepilogherà l'orine</p>
+<p>(A summary of the order will appear, and you will be asked to enter your email. At that point, an email summarizing the order will be sent to you.)</p><br>
 
 
 
@@ -32,7 +37,8 @@ a quel punto verrà recapitata un'email che riepilogherà l'orine</p><br>
 
 
 
-<br><p>in oltre nella home page avremo accesso alla pagina che riepiloga tutte le vendite rappresentate in grafici</P><br>
+<br><p>in oltre nella home page avremo accesso alla pagina che riepiloga tutte le vendite rappresentate in grafici</P>
+<p>(Additionally, on the home page, we will have access to a page that summarizes all sales represented in graphs.)</p><br>
 
 
 
