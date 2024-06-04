@@ -1,7 +1,9 @@
 <h1>Istrizioni della repository</h1>
 
-<p>Sito realizzato con Spring Boot impostato con gradle che utilizza queste dipendenze</p>
-<p>(Site created with Spring Boot configured with Gradle using these dependencies)</p><br>
+<p>
+Questo sito è stato realizzato utilizzando Spring Boot, configurato con Gradle. L'applicazione impiega una serie di dipendenze per garantire funzionalità complete e ottimali, tra cui gestione dei dati, sicurezza, e interfacce utente. Grazie a queste dipendenze, il progetto è altamente scalabile, manutenibile, e facile da estendere con nuove funzionalità.
+</p>
+<p>(This site was created using Spring Boot, configured with Gradle. The application employs a range of dependencies to ensure comprehensive and optimal functionality, including data management, security, and user interfaces. Thanks to these dependencies, the project is highly scalable, maintainable, and easy to extend with new features.)</p>
 
 ```shimplementation 'com.fasterxml.jackson.core:jackson-databind:2.17.1' 
 implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
@@ -14,21 +16,23 @@ testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 implementation 'org.springframework.boot:spring-boot-starter-mail'
 ```
 
-<br><p>Questo sito simula un ecommerce dove vengono venduti componenti per pc </p>
-<p>(This site simulates an e-commerce platform where PC components are sold)</p><br>
+<br><p>Questo sito si pone come una simulazione di un ecommerce dedicato alla vendita di componenti per PC. Offre una piattaforma virtuale dove gli utenti possono esplorare una vasta gamma di prodotti e fare acquisti in modo intuitivo e conveniente.</p>
+
+<p>(This site serves as a simulation of an ecommerce platform dedicated to selling PC components. It provides a virtual platform where users can explore a wide range of products and make purchases in an intuitive and convenient manner.)</p><br>
 
 ![homePage](https://github.com/FabioBl77/AppSpringBoot/assets/167991278/7d2d4969-6840-440e-a670-668989ae1ff6)
 
-<br<p>nella home page inseriamo il prodotto mentre 
-nel menu modifica riforniamo le quantità in magazziono, nel menù lista invece vediamo tutti i prodotti in vendita.</p>
-<p>(On the home page, we add the product, while in the "modify" menu, we restock the quantities in the warehouse. In the "list" menu, we can see all the products for sale.)</p><br>
+<br><p>Nella home page, è possibile aggiungere i prodotti al carrello, mentre nel menu "Modifica" è possibile rifornire le quantità disponibili in magazzino. Nel menu "Lista" è invece possibile visualizzare tutti i prodotti disponibili per la vendita.</p>
+
+<p>(On the home page, you can add products to your cart, while in the "Modify" menu, you can restock the quantities available in the warehouse. In the "List" menu, you can view all the products available for sale.)</p><br>
 
 ![Screenshot 2024-06-04 145950](https://github.com/FabioBl77/AppSpringBoot/assets/167991278/f7e87312-0908-4e36-8cb6-fd3cacb076a6)
 
 
 
-<br><p>una volta selezionato il prodotto e impostato le quantità si preme conferma</b>
-<p>(Once the product is selected and the quantities are set, press confirm.)</p><br><br>
+<br><p>Dopo aver selezionato il prodotto e impostato le quantità desiderate, è sufficiente premere il pulsante "Conferma" per procedere.</b>
+
+<p>(After selecting the product and setting the desired quantities, simply press the "Confirm" button to proceed.)</p><br><br>
 
 
 
@@ -36,9 +40,9 @@ nel menu modifica riforniamo le quantità in magazziono, nel menù lista invece 
 
 
 
-<br><p>apparirà il riepilogo dell' ordine e verrà chiesto di inserire l'email
-a quel punto verrà recapitata un'email che riepilogherà l'orine</p>
-<p>(A summary of the order will appear, and you will be asked to enter your email. At that point, an email summarizing the order will be sent to you.)</p><br>
+<br><p>Dopo aver confermato l'ordine, comparirà un riepilogo dettagliato dell'acquisto e ti verrà richiesto di inserire l'indirizzo email. A quel punto, riceverai un'email di riepilogo dell'ordine.</p>
+
+<p>(After confirming the order, a detailed summary of the purchase will appear, and you will be prompted to enter your email address. At that point, you will receive an email summarizing the order.)</p><br>
 
 
 
@@ -46,8 +50,9 @@ a quel punto verrà recapitata un'email che riepilogherà l'orine</p>
 
 
 
-<br><p>in oltre nella home page avremo accesso alla pagina che riepiloga tutte le vendite rappresentate in grafici</P>
-<p>(Additionally, on the home page, we will have access to a page that summarizes all sales represented in graphs.)</p><br>
+<br><p>Inoltre, nella home page avremo accesso a una pagina che fornisce un riepilogo di tutte le vendite, rappresentate attraverso grafici dettagliati.</P>
+
+<p>(Additionally, on the home page, we will have access to a page that provides a summary of all sales, represented through detailed graphs.)</p><br>
 
 
 
