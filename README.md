@@ -1,6 +1,6 @@
 <h1>Istrizioni della repository</h1>
 
-<p>Sito realizzato con Spring Boot che utilizza queste dipendenze</p><br>
+<p>Sito realizzato con Spring Boot impostato con gradle che utilizza queste dipendenze</p><br>
 
 ![dipendenze](https://github.com/FabioBl77/AppSpringBoot/assets/167991278/ed877e2e-de5f-46e4-a5d6-67187de61c37)
 
