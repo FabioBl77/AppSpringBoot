@@ -9,8 +9,7 @@
 ![homePage](https://github.com/FabioBl77/AppSpringBoot/assets/167991278/7d2d4969-6840-440e-a670-668989ae1ff6)
 
 <be><p>nella home page inseriamo il prodotto mentre 
-nel menu modifica riforniamo le quantità in magazziono ed infine 
-in lista vediamo tutti i prodotti in vendita</p><br>
+nel menu modifica riforniamo le quantità in magazziono, nel menù lista invece vediamo tutti i prodotti in vendita</p><br>
 
 ![Screenshot 2024-06-04 145950](https://github.com/FabioBl77/AppSpringBoot/assets/167991278/f7e87312-0908-4e36-8cb6-fd3cacb076a6)
 
