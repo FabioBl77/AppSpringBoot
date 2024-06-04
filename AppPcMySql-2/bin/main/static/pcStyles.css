@@ -1,0 +1,174 @@
+* {
+	 font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+	font-size: 1em;
+}
+
+
+body {
+	
+    font-family: sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+  
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+#titolo {
+    position: relative;
+    font-size: 5em; /* Ingrandisce il titolo */
+    text-align: center;
+    padding: 150px;
+   
+    background-image: url('https://effebl.altervista.org/wp-content/uploads/elementor/thumbs/james-jeremy-beckers-tqWIGez5AsI-unsplash-qo62sy0f10avh3ywsc06jp9bpq7lv2osl9ssq5wuhc.jpg'); /* Inserisce l'immagine di sfondo */
+     background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 8px;
+    z-index: 1;
+    overflow: hidden;
+}
+#titolo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); /* Overlay semitrasparente */
+    z-index: -1;
+}
+h3 {
+    font-size: 1.2em;
+ 
+    color:  #007bff;
+}
+
+label {
+	color:  #007bff;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+   
+    color:  #007bff;
+}
+
+input[type="submit"], button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 0.8em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #0056b3;
+}
+
+#piuOrol {
+    margin-top: 20px;
+}
+
+.image-container {
+    margin-top: 20px;
+}
+
+.image-container img {
+	 
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+}
+#listImg {
+	animation: zoomIn; /* referring directly to the animation's @keyframe declaration */
+  	animation-duration: 2s; /* don't forget to set a duration! */
+	   max-width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+
+}
+#listImg:hover img{
+	transform:scale(1.6,1.6);
+}
+#listImgPiccola{
+	   max-width: 10%;
+    height: auto;
+ 
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.title2 {
+	
+	text-align: center;
+	font-size: 5em; /* Ingrandisce il titolo */
+	padding: 50px;
+	background-color:  #0056b3;
+	color: white;
+}
+#carrello {
+    display: inline;
+   
+    gap: 1rem;
+}
+
+.prezzo{
+	color: red;
+}
+.descrizione {
+	color: black;
+}
+.rosso {
+	color: red;
+}
+.card-title {
+	color: #0056b3;
+	text-align: center;
+}
+	
+#listImgPiccola{
+	
+	   max-width: 10%;
+    height: auto;
+ 
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+}
+.flex-grow-1{
+	max-height: 100px;
+}
+.d-flex {
+	
+	 border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	gap: 20%;
+}

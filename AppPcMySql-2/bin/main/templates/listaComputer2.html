@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Gestione Orologi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="pcStyles.css">
+    <link rel="stylesheet" href="styleNavbar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="navBarSticky">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/">Magazzino Pc</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="/">Home </a>
+                <a class="nav-item nav-link" href="/getComputer">Lista</a>
+                <a class="nav-item nav-link" href="/change">Modifica</a>
+                <a class="nav-item nav-link" href="#" tabindex="-1" aria-disabled="true">Elimina</a>
+            </div>
+        </div>
+    </nav>
+</div>
+<h1 class="title2">Componenti in magazzino</h1>
+<div class="container mt-5">
+    <h1 class="title mt-4">Lista Componenti</h1>
+    <form action="sellPc" method="post">
+        <div class="row">
+            <div th:each="componente : ${lista}" class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top animate__animated animate__zoomIn" th:src="${componente.urlImg}" alt="Immagine dell'orologio">
+                    <div class="card-body">
+                       <h5 class="card-title">Modello: <span th:text="${componente.modello}"></span></h5><hr>
+                        <p class="card-text">
+                            <strong>ID:</strong> <span th:text="${componente.id}"></span><br>
+                            <strong>Marca:</strong> <span th:text="${componente.marca}"></span><br>
+                            <strong>Tipologia:</strong> <span th:text="${componente.tipologia}"></span><br>
+                            <strong>Quantità:</strong> <span th:text="${componente.qnt}"></span><br><hr>
+                            <strong>Descrizione:</strong> <span th:text="${componente.descrizione}"></span><br><hr>
+                           
+                        </p>
+                         <br>
+                        <p class="rosso"><strong>Prezzo:</strong> <span th:text="${componente.prezzo}"></span></p>
+                        <div class="form-check">
+                     
+                            
+                          
+                        </div>
+                        <div class="form-group mt-2">
+                           <input type="checkbox" class="form-check-input" id="myCheck" name="ordini" th:value="${componente.id}">
+                            <input type="number" class="form-control" id="pezzi" name="pezzi" placeholder="numero di pezzi">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <input type="submit" value="ordina" class="btn btn-primary mt-4">
+    </form>
+</div>
+<hr>
+<div>
+    <button onclick="location.href='/'" class="btn btn-primary mt-4">Torna al magazzino</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+#navBarSticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Mantiene la navbar sempre in primo piano */
+    background-color: rgba(255, 255, 255, 0.8); /* Sfondo leggermente trasparente */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-nav {
+	margin-left: 34%;
+}
+.navbar-brand {
+	padding-left: 20px;
+}
+.navbar-light .navbar-brand, 
+.navbar-light .nav-link {
+    color: blue; /* Colore blu per il testo */
+}
+
+.navbar-light .nav-link:hover, 
+.navbar-light .nav-link:focus {
+    color: darkblue; /* Colore blu scuro al passaggio del mouse e focus */
+}
+
+.navbar-light .nav-link.disabled {
+    color: lightblue; /* Colore blu chiaro per link disabilitato */
+}
+
+@media (max-width: 767px) {
+    .navbar-brand {
+     	
+        font-size: 1.2em;
+    }
+
+    .nav-link {
+        font-size: 0.9em;
+    }
+}
